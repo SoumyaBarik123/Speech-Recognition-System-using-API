@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 5px 0 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #2575fc;
+}
+
+.converter-container {
+    text-align: center;
+}
+
+#output {
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 90%;
+    min-height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#startButton {
+    margin-top: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: #2575fc;
+    transition: background 0.3s ease;
+}
+
+#startButton:hover {
+    background: #1a5dbc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+    background: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #1a5dbc;
+}
+
+.btn-secondary {
+    background: #6a11cb;
+}
+
+.btn-secondary:hover {
+    background: #530fa3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #2575fc;
+    text-decoration: none;
+}

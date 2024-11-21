@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Text-to-Speech Converter</h1>
+            <p>Transform your written words into a spoken voice.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h2>Enter Your Text Below</h2>
+            <textarea id="text" placeholder="Type your text here..."></textarea>
+            <select id="voiceSelect" class="dropdown">
+                <option value="en-US">English (US)</option>
+                <option value="en-GB">English (UK)</option>
+            </select>
+            <div class="buttons">
+                <button id="speakButton" class="btn">Speak</button>
+                <button id="downloadButton" class="btn btn-secondary">Download Audio</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Speech & Text Recognition. All rights reserved.</p>
+        <p>Need help? Contact us: <a href="mailto:soumyaranjanbarik160@gmail.com">contact@speechtext.com</a></p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
